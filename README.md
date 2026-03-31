@@ -10,20 +10,31 @@ Data yang ditampilkan seperti profil, skills, experience, dan certificates diamb
 
 # 🎯 Fitur Utama
 ✅ Tampilan Home (Hero Section)
+
 ✅ About Me (Profil singkat)
+
 ✅ Skills dengan progress bar dinamis
+
 ✅ Experience (Pengalaman)
+
 ✅ Certificates (Sertifikat)
+
 ✅ Smooth scrolling navigation
+
 ✅ Data terintegrasi dengan database MySQL
 
 
 # 🛠️ Teknologi yang Digunakan
 HTML5
+
 CSS
+
 PHP (Native)
+
 MySQL
+
 Laragon (Local Server)
+
 phpMyAdmin
 
 
@@ -35,17 +46,24 @@ Database: portfolio_db
 Tabel:
 
 profile → nama, deskripsi
+
 skills → nama_skill, persen
+
 experience → pengalaman
+
 certificates → judul, deskripsi, gambar
 
 
 
 # 🚀 Cara Menjalankan Project
 Jalankan Laragon
+
 Simpan project di folder: C:\laragon\www\portofolio
+
 Import database ke phpMyAdmin
+
 Pastikan koneksi di koneksi.php: mysqli_connect("localhost", "root", "", "portfolio_db");
+
 Jalankan di browser: http://localhost/portofolio/
 
 
